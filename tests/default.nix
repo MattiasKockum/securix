@@ -12,4 +12,5 @@
   vpn-profiles-characterization = import ./vpn-profiles-characterization.nix {
     inherit pkgs libSecurix;
   };
+  vpn-profiles-legacy-channel = import ./vpn-profiles-legacy-channel.nix { inherit pkgs libSecurix; };
 }
