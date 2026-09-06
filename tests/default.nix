@@ -13,4 +13,7 @@
     inherit pkgs libSecurix;
   };
   vpn-profiles-legacy-channel = import ./vpn-profiles-legacy-channel.nix { inherit pkgs libSecurix; };
+  vpn-profiles-module-refactor = import ./vpn-profiles-module-refactor.nix {
+    inherit pkgs libSecurix;
+  };
 }
