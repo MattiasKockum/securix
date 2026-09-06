@@ -16,4 +16,6 @@
   vpn-profiles-module-refactor = import ./vpn-profiles-module-refactor.nix {
     inherit pkgs libSecurix;
   };
+  vpn-profiles-composition = import ./vpn-profiles-composition.nix { inherit pkgs libSecurix; };
+  vpn-profiles-validation = import ./vpn-profiles-validation.nix { inherit pkgs libSecurix; };
 }
